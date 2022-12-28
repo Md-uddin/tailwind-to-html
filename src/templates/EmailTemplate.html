@@ -7,7 +7,7 @@ bodyClass: bg-slate-50
 
 <extends src="src/layouts/main.html">
   <block name="template">
-    <div class="w-full bg-[rgb(243 244 246)] p-2 md:p-8">
+    <div class="w-full bg-[rgb(243 244 246)] p-2 md:p-8 md:my-8">
       <div class="h-full w-full max-w-7xl bg-white shadow-xl m-auto">
         <form class="flex h-full px-4 flex-col bg-white shadow-2xl">
           <div class="flex-1">
@@ -37,46 +37,43 @@ bodyClass: bg-slate-50
                 <h4 class="text-base font-semibold text-gray-900 pb-4">
                   Personal Details
                 </h4>
-                <div class="grid grid-cols-2 gap-3 pb-6">
-                  <div class="col-span-1">
+                <div class="flex flex-col">
+                  <div class="flex flex-row justify-between items-center">
                     <label
                       for="project-description"
                       class="block text-sm font-medium text-gray-700 capitalize"
                     >
                       Full name:
                     </label>
-                  </div>
-                  <div class="col-span-1">
+
                     <p
                       class="max-w-full overflow-hidden text-ellipsis break-words text-sm text-gray-500 capitalize"
                     >
                       -----------------first name-----------------------------
                     </p>
                   </div>
-                  <div class="col-span-1">
+                  <div class="flex flex-row justify-between items-center">
                     <label
                       for="project-description"
                       class="block text-sm font-medium text-gray-700 capitalize"
                     >
                       Birth Year:
                     </label>
-                  </div>
-                  <div class="col-span-1">
+
                     <p
                       class="max-w-full overflow-hidden text-ellipsis break-words text-sm text-gray-500 capitalize"
                     >
                       ------------birth year-----------------
                     </p>
                   </div>
-                  <div class="col-span-1">
+                  <div class="flex flex-row justify-between items-center">
                     <label
                       for="project-description"
                       class="block text-sm font-medium text-gray-700 capitalize"
                     >
                       Residency:
                     </label>
-                  </div>
-                  <div class="col-span-1">
+
                     <p
                       class="max-w-full overflow-hidden text-ellipsis break-words text-sm text-gray-500 capitalize"
                     >
@@ -90,16 +87,15 @@ bodyClass: bg-slate-50
                 <h4 class="text-base font-semibold text-gray-900 pb-4">
                   Location of interest
                 </h4>
-                <div class="grid grid-cols-2 gap-3 pb-6">
-                  <div class="col-span-1">
+                <div class="flex flex-col">
+                  <div class="flex flex-row justify-between items-center">
                     <label
                       for="project-description"
                       class="block text-sm font-medium text-gray-700 capitalize"
                     >
                       Country:
                     </label>
-                  </div>
-                  <div class="col-span-1">
+
                     <p
                       class="max-w-full overflow-hidden text-ellipsis break-words text-sm text-gray-500 capitalize"
                     >
@@ -107,15 +103,14 @@ bodyClass: bg-slate-50
                       country--------------------
                     </p>
                   </div>
-                  <div class="col-span-1">
+                  <div class="flex flex-row justify-between items-center">
                     <label
                       for="project-description"
                       class="block text-sm font-medium text-gray-700 capitalize"
                     >
                       Regions:
                     </label>
-                  </div>
-                  <div class="col-span-1">
+
                     <p
                       class="max-w-full overflow-hidden text-ellipsis break-words text-sm text-gray-500 capitalize"
                     >
@@ -128,31 +123,29 @@ bodyClass: bg-slate-50
                 <h4 class="text-base font-semibold text-gray-900 pb-4">
                   Financial information
                 </h4>
-                <div class="grid grid-cols-2 gap-3 pb-6">
-                  <div class="col-span-1">
+                <div class="flex flex-col">
+                  <div class="flex flex-row justify-between items-center">
                     <label
                       for="project-description"
                       class="block text-sm font-medium text-gray-700 capitalize"
                     >
                       Occupation:
                     </label>
-                  </div>
-                  <div class="col-span-1">
+
                     <p
                       class="max-w-full overflow-hidden text-ellipsis break-words text-sm text-gray-500 capitalize"
                     >
                       ----------------------------occupation-------------------
                     </p>
                   </div>
-                  <div class="col-span-1">
+                  <div class="flex flex-row justify-between items-center">
                     <label
                       for="project-description"
                       class="block text-sm font-medium text-gray-700 capitalize"
                     >
                       Monthly income:
                     </label>
-                  </div>
-                  <div class="col-span-1">
+
                     <p
                       class="max-w-full overflow-hidden text-ellipsis break-words text-sm text-gray-500 capitalize"
                     >
@@ -160,51 +153,32 @@ bodyClass: bg-slate-50
                       after taxes
                     </p>
                   </div>
-                  <div class="col-span-1">
+                  <div class="flex flex-row justify-between items-center">
                     <label
                       for="project-description"
                       class="block text-sm font-medium text-gray-700 capitalize"
                     >
                       Loans and rent payments:
                     </label>
-                  </div>
-                  <div class="col-span-1">
+
                     <p
                       class="max-w-full overflow-hidden text-ellipsis break-words text-sm text-gray-500 capitalize"
                     >
                       --------Expesnses with currency-----------/month
                     </p>
                   </div>
-                  <div class="col-span-1">
+                  <div class="flex flex-row justify-between items-center">
                     <label
                       for="project-description"
                       class="block text-sm font-medium text-gray-700 capitalize"
                     >
                       Credit Score:
                     </label>
-                  </div>
-                  <div class="col-span-1">
+
                     <p
                       class="max-w-full overflow-hidden text-ellipsis break-words text-sm text-gray-500 capitalize"
                     >
                       ------------credit score ---------------------
-                    </p>
-                  </div>
-                </div>
-                <div class="grid grid-cols-2 gap-3">
-                  <div class="col-span-1">
-                    <label
-                      for="project-description"
-                      class="block text-sm font-medium text-gray-700 capitalize"
-                    >
-                      Occupation:
-                    </label>
-                  </div>
-                  <div class="col-span-1">
-                    <p
-                      class="max-w-full overflow-hidden text-ellipsis break-words text-sm text-gray-500 capitalize"
-                    >
-                      No
                     </p>
                   </div>
                 </div>
